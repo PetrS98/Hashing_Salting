@@ -27,11 +27,6 @@ namespace Přístup_Heslo_Login
             var pbkdf2 = new Rfc2898DeriveBytes("1212", salt, 100000);
             hash = pbkdf2.GetBytes(255);
 
-
-            //textBox1.Text = Convert.ToBase64String(salt);
-            //textBox2.Text = Convert.ToBase64String(hash);
-
-            //Test
         }
 
         private void button1_Click(object sender, EventArgs e)
